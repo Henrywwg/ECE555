@@ -1,0 +1,393 @@
+Mdi:ArrangeIcons
+wm geometry . 900x785+-10+79
+Mdi:ArrangeIcons
+wm geometry . 900x785+-7+99
+Mdi:ArrangeIcons
+wm geometry . 900x785+-1+130
+Mdi:ArrangeIcons
+wm geometry . 900x785+17+178
+Mdi:ArrangeIcons
+wm geometry . 900x785+43+234
+Mdi:ArrangeIcons
+wm geometry . 900x785+83+298
+Mdi:ArrangeIcons
+wm geometry . 900x785+131+360
+Mdi:ArrangeIcons
+wm geometry . 900x785+189+422
+Mdi:ArrangeIcons
+wm geometry . 900x785+261+480
+Mdi:ArrangeIcons
+wm geometry . 900x785+339+522
+Mdi:ArrangeIcons
+wm geometry . 900x785+407+558
+Mdi:ArrangeIcons
+wm geometry . 900x785+459+592
+Mdi:ArrangeIcons
+wm geometry . 900x785+509+630
+Mdi:ArrangeIcons
+wm geometry . 900x785+583+688
+Mdi:ArrangeIcons
+wm geometry . 900x785+627+716
+Mdi:ArrangeIcons
+wm geometry . 900x785+652+732
+Mdi:ArrangeIcons
+wm geometry . 900x785+666+741
+Mdi:ArrangeIcons
+wm geometry . 900x785+680+748
+Mdi:ArrangeIcons
+wm geometry . 900x785+699+754
+Mdi:ArrangeIcons
+wm geometry . 900x785+717+758
+Mdi:ArrangeIcons
+wm geometry . 900x785+730+759
+Mdi:ArrangeIcons
+wm geometry . 900x785+733+760
+ScopeSigMgr:loadpffile /filespace/h/hwysonggrass/ece555/ECE555/INV_2bit/test.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1920+1080
+pf:read PF:1 v(in<0>) v(in<1>) v(out<0>) v(out<1>)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4} -region {new new new new} -yview {real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3
+Mdi:Resize 883 653
+Mdi:Move 5 5
+Mdi:ArrangeIcons
+wm geometry . 903x788+733+760
+Mdi:ArrangeIcons
+wm geometry . 908x792+733+760
+Mdi:ArrangeIcons
+wm geometry . 911x796+733+760
+Mdi:ArrangeIcons
+wm geometry . 915x801+733+760
+Mdi:ArrangeIcons
+wm geometry . 925x813+733+760
+Mdi:ArrangeIcons
+wm geometry . 955x839+733+760
+Mdi:ArrangeIcons
+wm geometry . 993x871+733+760
+Mdi:ArrangeIcons
+wm geometry . 1061x921+733+760
+Mdi:ArrangeIcons
+wm geometry . 1109x953+733+760
+Mdi:ArrangeIcons
+wm geometry . 1159x981+733+760
+Mdi:ArrangeIcons
+wm geometry . 1201x1005+733+760
+Mdi:ArrangeIcons
+wm geometry . 1233x1020+733+760
+Mdi:ArrangeIcons
+wm geometry . 1252x1028+733+760
+Mdi:ArrangeIcons
+wm geometry . 1260x1031+733+760
+Mdi:ArrangeIcons
+wm geometry . 1264x1033+733+760
+Mdi:ArrangeIcons
+wm geometry . 1269x1036+733+760
+Mdi:ArrangeIcons
+wm geometry . 1274x1040+733+760
+Mdi:ArrangeIcons
+wm geometry . 1282x1047+733+760
+Mdi:ArrangeIcons
+wm geometry . 1293x1056+733+760
+Mdi:ArrangeIcons
+wm geometry . 1310x1072+733+760
+Mdi:ArrangeIcons
+wm geometry . 1327x1084+733+760
+Mdi:ArrangeIcons
+wm geometry . 1353x1104+733+760
+Mdi:ArrangeIcons
+wm geometry . 1380x1124+733+760
+Mdi:ArrangeIcons
+wm geometry . 1405x1139+733+760
+Mdi:ArrangeIcons
+wm geometry . 1425x1153+733+760
+Mdi:ArrangeIcons
+wm geometry . 1439x1163+733+760
+Mdi:ArrangeIcons
+wm geometry . 1450x1169+733+760
+Mdi:ArrangeIcons
+wm geometry . 1466x1179+733+760
+Mdi:ArrangeIcons
+wm geometry . 1494x1197+733+760
+Mdi:ArrangeIcons
+wm geometry . 1525x1218+733+760
+Mdi:ArrangeIcons
+wm geometry . 1551x1231+733+760
+Mdi:ArrangeIcons
+wm geometry . 1572x1243+733+760
+Mdi:ArrangeIcons
+wm geometry . 1601x1257+733+760
+Mdi:ArrangeIcons
+wm geometry . 1613x1261+733+760
+Mdi:ArrangeIcons
+wm geometry . 1621x1263+733+760
+Mdi:ArrangeIcons
+wm geometry . 1623x1264+733+760
+Mdi:ArrangeIcons
+wm geometry . 1624x1264+733+760
+Mdi:ArrangeIcons
+wm geometry . 1625x1264+733+760
+Mdi:ArrangeIcons
+wm geometry . 1626x1263+733+760
+Mdi:ArrangeIcons
+wm geometry . 1627x1262+733+760
+Mdi:ArrangeIcons
+wm geometry . 1628x1261+733+760
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+733+760
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisX(0)} -range {{0.2965 0.643 } {0.2965 0.643 } {-0.005 0.49 } {-0.005 0.49 } {990p 1.98n }}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Mdi:Resize 1611 1129
+Mdi:Move 5 5
+wm geometry .sigmgr 467x236+1157+880
+wm geometry .sigmgr 467x236+1160+878
+wm geometry .sigmgr 467x236+1165+875
+wm geometry .sigmgr 467x236+1177+868
+wm geometry .sigmgr 467x236+1197+852
+wm geometry .sigmgr 467x236+1233+824
+wm geometry .sigmgr 467x236+1279+790
+wm geometry .sigmgr 467x236+1333+756
+wm geometry .sigmgr 467x236+1393+708
+wm geometry .sigmgr 467x236+1433+672
+wm geometry .sigmgr 467x236+1467+642
+wm geometry .sigmgr 467x236+1503+614
+wm geometry .sigmgr 467x236+1546+586
+wm geometry .sigmgr 467x236+1570+570
+wm geometry .sigmgr 467x236+1611+549
+wm geometry .sigmgr 467x236+1661+523
+wm geometry .sigmgr 467x236+1713+501
+wm geometry .sigmgr 467x236+1757+481
+wm geometry .sigmgr 467x236+1789+467
+wm geometry .sigmgr 467x236+1822+458
+wm geometry .sigmgr 467x236+1853+451
+wm geometry .sigmgr 467x236+1875+446
+wm geometry .sigmgr 467x236+1888+444
+wm geometry .sigmgr 467x236+1901+441
+wm geometry .sigmgr 467x236+1916+438
+wm geometry .sigmgr 467x236+1919+437
+wm geometry .sigmgr 467x236+1920+437
+wm geometry .sigmgr._PF:1 290x358+1908+1060
+wm geometry .sigmgr._PF:1 290x358+1899+1031
+wm geometry .sigmgr._PF:1 290x358+1892+998
+wm geometry .sigmgr._PF:1 290x358+1876+949
+wm geometry .sigmgr._PF:1 290x358+1858+893
+wm geometry .sigmgr._PF:1 290x358+1838+835
+wm geometry .sigmgr._PF:1 290x358+1798+759
+wm geometry .sigmgr._PF:1 290x358+1756+683
+wm geometry .sigmgr._PF:1 290x358+1714+593
+wm geometry .sigmgr._PF:1 290x358+1676+515
+wm geometry .sigmgr._PF:1 290x358+1646+451
+wm geometry .sigmgr._PF:1 290x358+1624+401
+wm geometry .sigmgr._PF:1 290x358+1596+333
+wm geometry .sigmgr._PF:1 290x358+1583+305
+wm geometry .sigmgr._PF:1 290x358+1575+283
+wm geometry .sigmgr._PF:1 290x358+1566+267
+wm geometry .sigmgr._PF:1 290x358+1560+254
+wm geometry .sigmgr._PF:1 290x358+1550+240
+wm geometry .sigmgr._PF:1 290x358+1539+226
+wm geometry .sigmgr._PF:1 290x358+1532+217
+wm geometry .sigmgr._PF:1 290x358+1527+211
+wm geometry .sigmgr._PF:1 290x358+1517+204
+wm geometry .sigmgr._PF:1 290x358+1505+195
+wm geometry .sigmgr._PF:1 290x358+1487+181
+wm geometry .sigmgr._PF:1 290x358+1459+166
+wm geometry .sigmgr._PF:1 290x358+1444+163
+wm geometry .sigmgr._PF:1 290x358+1433+160
+wm geometry .sigmgr._PF:1 290x358+1425+160
+wm geometry .sigmgr._PF:1 290x358+1421+160
+wm geometry .sigmgr._PF:1 290x358+1419+160
+wm geometry .sigmgr._PF:1 290x358+1418+160
+wm geometry .sigmgr._PF:1 290x358+1417+160
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+733+759
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+732+757
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+728+755
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+725+753
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+723+750
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+720+747
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+718+745
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+716+742
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+714+740
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+712+738
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+706+733
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+702+729
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+697+725
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+691+722
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+686+718
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+683+716
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+680+713
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+678+711
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+675+709
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+673+707
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+671+706
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+669+705
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+665+702
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+658+698
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+650+694
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+636+689
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+611+679
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+559+664
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+528+655
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+500+648
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+477+642
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+463+639
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+455+639
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+447+639
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+442+638
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+438+638
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+436+638
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+435+638
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+434+638
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+432+638
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+431+638
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+429+639
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+426+640
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+422+642
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+419+643
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+417+644
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+416+645
+Graph axisconfig {AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisX(0)} -range {{0.2965 0.643 } {0.2965 0.643 } {-0.005 0.49 } {-0.005 0.49 } {990p 1.98n }}
+Graph:DSel
+Graph:Select Graph0
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.57074032266164 0.38136282471006} {1.23777923442n 1.27398928076n}}
+Graph:DSel
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.96603436136126 -0.050590112439606} {964.421p 1.04672n}}
+Graph:DSel
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph:DSel
+Graph:Select Graph0
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{1.0060215390545 -5.7501486581369} {1.91493n 2.08776n}}
+Graph:DSel
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+409+646
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+401+646
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+390+647
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+377+647
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+362+648
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+346+648
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+332+648
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+322+649
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+318+650
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+314+650
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+310+651
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+307+652
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+305+653
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+300+654
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+297+655
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+294+656
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+292+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+291+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+284+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+278+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+269+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+262+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+256+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+251+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+248+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+245+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+241+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+235+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+226+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+221+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+216+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+211+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+206+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+201+657
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+196+658
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+192+659
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+188+659
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+184+659
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+179+660
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+175+660
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+172+660
+Mdi:ArrangeIcons
+wm geometry . 1629x1261+171+660

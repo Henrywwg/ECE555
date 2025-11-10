@@ -1,0 +1,129 @@
+Mdi:ArrangeIcons
+wm geometry . 900x785+1636+419
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/h/hwysonggrass/ece555/ECE555/AND_2_tb/test_AND2.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1920+1080
+pf:read PF:1 v(in<0>) v(in<1>) v(out)
+# WF:1:1 WF:1:2 WF:1:3
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+wm geometry .sigmgr 467x236+2060+539
+wm geometry .sigmgr 467x236+2070+541
+wm geometry .sigmgr 467x236+2089+548
+wm geometry .sigmgr 467x236+2149+564
+wm geometry .sigmgr 467x236+2239+586
+wm geometry .sigmgr 467x236+2341+606
+wm geometry .sigmgr 467x236+2423+620
+wm geometry .sigmgr 467x236+2475+626
+wm geometry .sigmgr 467x236+2493+628
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -regswap 4
+Mdi:ArrangeIcons
+wm geometry . 901x786+1636+419
+Mdi:ArrangeIcons
+wm geometry . 902x787+1636+419
+Mdi:ArrangeIcons
+wm geometry . 903x789+1636+419
+Mdi:ArrangeIcons
+wm geometry . 905x791+1636+419
+Mdi:ArrangeIcons
+wm geometry . 909x796+1636+419
+Mdi:ArrangeIcons
+wm geometry . 922x805+1636+419
+Mdi:ArrangeIcons
+wm geometry . 969x828+1636+419
+Mdi:ArrangeIcons
+wm geometry . 1049x876+1636+419
+Mdi:ArrangeIcons
+wm geometry . 1153x934+1636+419
+Mdi:ArrangeIcons
+wm geometry . 1269x998+1636+419
+Mdi:ArrangeIcons
+wm geometry . 1395x1058+1636+419
+Mdi:ArrangeIcons
+wm geometry . 1525x1118+1636+419
+Mdi:ArrangeIcons
+wm geometry . 1641x1176+1636+419
+Mdi:ArrangeIcons
+wm geometry . 1739x1232+1636+419
+Mdi:ArrangeIcons
+wm geometry . 1825x1290+1636+419
+Mdi:ArrangeIcons
+wm geometry . 1893x1346+1636+419
+Mdi:ArrangeIcons
+wm geometry . 1949x1408+1636+419
+Mdi:ArrangeIcons
+wm geometry . 1955x1417+1636+419
+Mdi:ArrangeIcons
+wm geometry . 1954x1417+1636+419
+Mdi:ArrangeIcons
+wm geometry . 1953x1417+1636+419
+Mdi:ArrangeIcons
+wm geometry . 1948x1411+1636+419
+Mdi:Resize 1930 1280
+Mdi:Move 5 5
+wm geometry .sigmgr 467x236+2491+629
+wm geometry .sigmgr 467x236+2486+630
+wm geometry .sigmgr 467x236+2462+633
+wm geometry .sigmgr 467x236+2382+633
+wm geometry .sigmgr 467x236+2252+633
+wm geometry .sigmgr 467x236+2086+625
+wm geometry .sigmgr 467x236+1894+611
+wm geometry .sigmgr 467x236+1566+593
+wm geometry .sigmgr 467x236+1336+577
+wm geometry .sigmgr 467x236+1120+559
+wm geometry .sigmgr 467x236+934+541
+wm geometry .sigmgr 467x236+820+527
+wm geometry .sigmgr 467x236+764+525
+wm geometry .sigmgr 467x236+735+525
+wm geometry .sigmgr 467x236+727+527
+wm geometry .sigmgr 467x236+724+528
+wm geometry .sigmgr 467x236+724+529
+wm geometry .sigmgr 467x236+714+534
+wm geometry .sigmgr 467x236+712+536
+wm geometry .sigmgr 467x236+711+536
+wm geometry .sigmgr 467x236+711+537
+wm geometry .sigmgr 467x236+710+537
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 2 -rgnindex 1
+Graph:DSel
+Graph sigconfig Signal1 -region 0 -yview real(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label v(in<1>) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+Graph sigconfig Signal1 -region 1 -yview real(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label v(in<1>) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+Graph sigconfig Signal1 -region 0 -yview real(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label v(in<1>) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+Graph sigconfig Signal1 -region 1 -yview real(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label v(in<1>) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+Graph sigconfig Signal1 -region 0 -yview real(y) -xview real(x) -rainbow 0 -rbcolors {} -fill magenta -linestyle - -width 1 -symbol {} -symwidth 10 -bar {} -barwidth 0 -baseline 0.0 -stipple {} -label v(in<1>) -xaxis 0 -yaxis 0 -tracehi 2 -bus {} -segdisp y -monotonicdisp 0
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph sigconfig {Signal2 Signal0} -region {1 1} -rgnindex {0 1}
+Graph:DSel
+GrMeas:Delay Graph0 Signal2 Signal0 either either default default default default 0.5 0.5 xyrangeAll
+# M:0
+GrMeas:Falltime Graph0 Signal2 {0.1 0.5 0.9} default default xyrangeAll
+# M:1
+Graph:DSel

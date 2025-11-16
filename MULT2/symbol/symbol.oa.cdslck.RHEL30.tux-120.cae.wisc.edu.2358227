@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      hwysonggrass
+HostName                       tux-120.cae.wisc.edu
+ProcessIdentifier              2358227
+ProcessCreationTime_UTC        1763319605
+ProcessCreationTime_Readable   Sun Nov 16 13:00:05 2025 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /filespace/h/hwysonggrass/ece555/ECE555/MULT2/symbol/symbol.oa.cdslck
+TimeEditLocked                 Sun Nov 16 14:05:58 2025 CST

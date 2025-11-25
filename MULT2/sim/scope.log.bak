@@ -1,0 +1,16 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+8+85
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+2495+109
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/h/hwysonggrass/ece555/ECE555/MULT2/sim/test_mult2.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 232x242+1920+540
+ScopeSigMgr:Unload 0 {{(1) test_mult2.tr0}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

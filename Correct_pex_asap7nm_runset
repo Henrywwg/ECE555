@@ -1,0 +1,40 @@
+//  Runset file generated on Mon Nov 10 12:46:14 2025
+//  by Calibre Interactive v2024.4_39.16    Tue Dec 3 16:43:50 PST 2024
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+cmn.showOptionPages.value = [ "Options" ]
+xrc.rulesFile.value = "$PDK_DIR/calibre/ruledirs/rcx/rcxControl_calibre_asap7.rul"
+xrc.runDir.value = "$PWD/pex"
+xrc.layout.layoutFile.value = "AND2x2_LVT.calibre.db"
+cmn.layout.defFiles.value = [ "AND2x2_LVT.def" ]
+xrc.layout.topCellLibrary.value = "ECE555"
+cmn.layout.topCellLibraryFDI.value = "ECE555"
+xrc.layout.topCell.value = "AND2x2_LVT"
+xrc.layout.topCellView.value = "layout_bkp"
+cmn.layout.topCellViewFDI.value = "layout_bkp"
+xrc.source.sourceFile.value = "AND2x2_LVT.src.net"
+xrc.source.topCellLibrary.value = "ECE555"
+xrc.source.topCellLibraryFDI.value = "ECE555"
+xrc.source.topCell.value = "AND2x2_LVT"
+xrc.source.topCellFDI.value = "AND2x2_LVT"
+xrc.source.topCellView.value = "schematic"
+xrc.source.topCellViewFDI.value = "schematic"
+xrc.xrcMode.mode.value = "xACT 3D"
+xrc.pexNetlist.netlistFile.value = "AND2x2_LVT.pex.netlist"
+xrc.reports.lvsReport.value = "AND2x2_LVT.lvs.report"
+xrc.reports.lvsReportViewAfterRun.value = true
+xrc.reports.pexReport.value = "AND2x2_LVT.pex.report"
+xrc.reports.pexReport.specified = true
+xrc.reports.pexReportViewAfterRun.value = true
+cmn.virtualConnect.vconnect.value = "SPECIFIEDNAMES"
+cmn.virtualConnect.vconnect.specified = true
+cmn.virtualConnect.netNames.value = [ "VDD", "VSS" ]
+
+xrc.blockExtraction.setADMSNetlistOutputFiles("{AND2x2_LVT AND2x2_LVT.pex.netlist} ")
+xrc.blockExtraction.setADMSNetlistOutputVerilogModules("{AND2x2_LVT AND2x2_LVT} ")
+
+cmn.miscPrefs.overwriteLayoutPref.value = false
+cmn.miscPrefs.overwriteSourcePref.value = false

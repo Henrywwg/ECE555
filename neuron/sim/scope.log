@@ -1,0 +1,206 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+8+85
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/h/hwysonggrass/ece555/ECE555/neuron/sim/test_neuron.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 232x242+1920+540
+Mdi:FullSize
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x614+1920+168
+wm geometry .sigmgr._PF:1 232x242+1920+540
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x614+1920+168
+pf:read PF:1 v(out_z<0>) v(out_z<1>) v(out_z<2>)
+# WF:1:1 WF:1:2 WF:1:3
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal0 Signal1 Signal2
+Mdi:ArrangeIcons
+wm geometry . 1358x782+8+85
+wm geometry .sigmgr 376x204+1447+242
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+522+164
+wm geometry .sigmgr 376x204+1447+242
+pf:read PF:1 v(w0<0>) v(w0<1>) v(x0<0>) v(x0<1>)
+# WF:1:5 WF:1:6 WF:1:7 WF:1:8
+Graph addsignal {WF:1:5 WF:1:6 WF:1:7 WF:1:8} -region {new new new new} -yview {real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2}
+# Signal3 Signal4 Signal5 Signal6
+Mdi:ArrangeIcons
+wm geometry . 1358x971+8+31
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph sigconfig Signal0 -region 6 -rgnindex 1
+Graph:DSel
+Graph axisconfig {AxisY(5,0) AxisX(0)} -range {{1.0044625617263 -0.13354644091567} {3.79769n 4.28048n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1920x980+0+23
+Mdi:ArrangeIcons
+wm geometry . 1358x971+8+31
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1920x980+0+23
+Mdi:ArrangeIcons
+wm geometry . 1920x980+8+31
+Mdi:ArrangeIcons
+wm geometry . 1920x980+0+23
+Graph:DSel
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+wm geometry . 1920x980+8+31
+Mdi:ArrangeIcons
+wm geometry . 1920x980+0+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+926+388
+wm geometry .sigmgr 376x204+1246+492
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1447+242
+wm geometry .sigmgr 376x204+926+388
+wm geometry .sigmgr 376x204+1246+492
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Falltime Graph0 Signal6 {0.1 0.5 0.9} default default xyrangeAll
+# M:0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:0 4
+GrMeas:HideResult Graph0 M:0 4
+GrMeas:ShowResult Graph0 M:0 4
+GrMeas:Select Graph0 M:0 4 1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Falltime Graph0 Signal0 {0.1 0.5 0.9} default default xyrangeAll
+# M:1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1255+492
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1371+583
+wm geometry .sigmgr 376x204+1246+492
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1255+492
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1371+583
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1524+161
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1371+583
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1524+161
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Delay Graph0 Signal0 Signal6 either either default default default default 0.5 0.5 xyrangeAll
+# M:2
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:1 8
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1920x980+0+0
+Mdi:ArrangeIcons
+wm geometry . 1920x980+0+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1920x980+0+0
+Mdi:ArrangeIcons
+wm geometry . 1920x980+0+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1920x980+8+31
+Mdi:ArrangeIcons
+wm geometry . 1920x980+0+23

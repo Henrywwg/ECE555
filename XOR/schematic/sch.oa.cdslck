@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      dlei8
+HostName                       linux-2630.cae.wisc.edu
+ProcessIdentifier              2159085
+ProcessCreationTime_UTC        1764801012
+ProcessCreationTime_Readable   Wed Dec  3 16:30:12 2025 CST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /filespace/d/dlei8/ece555/Project/XOR/schematic/sch.oa.cdslck
+TimeEditLocked                 Wed Dec  3 17:24:07 2025 CST

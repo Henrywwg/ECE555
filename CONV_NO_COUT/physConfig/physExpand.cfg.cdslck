@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      dlei8
+HostName                       linux-2630.cae.wisc.edu
+ProcessIdentifier              2159085
+ProcessCreationTime_UTC        1764800884
+ProcessCreationTime_Readable   Wed Dec  3 16:28:04 2025 CST
+AppIdentifier                  /cae/apps/data/cadence-2025/installs/IC231/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /filespace/d/dlei8/ece555/Project/CONV_NO_COUT/physConfig/physExpand.cfg
+TimeEditLocked                 Wed Dec  3 18:39:49 2025 CST

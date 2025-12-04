@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Wed Dec  3 16:18:49 2025 CST
 AppIdentifier                  /cae/apps/data/cadence-2025/installs/IC231/tools.lnx86/dfII/bin/64bit/virtuoso
 OSType                         lnx86
 ReasonForPlacingEditLock       
-FilePathUsedToEditLock         /filespace/h/hwysonggrass/ece555/ECE555/neuron/physConfig/physExpand.cfg
-TimeEditLocked                 Wed Dec  3 17:32:24 2025 CST
+FilePathUsedToEditLock         /filespace/h/hwysonggrass/ece555/ECE555/FRANKENFA/physConfig/physExpand.cfg
+TimeEditLocked                 Wed Dec  3 17:13:22 2025 CST

@@ -7,11 +7,9 @@
 +    PARHIER=LOCAL
 +    PSF=2
 +    HIER_DELIM=0
-+    PROBE
-+    CSHUNT=1e-18
-.options NUMDGT=8 measdgt=5 GMINDC=1e-18 DELMAX=1n method=gear INGOLD=2 POST=1
+.options accurate=1 NUMDGT=8 measdgt=5 GMINDC=1e-18 DELMAX=1n method=gear INGOLD=2 POST=1
 .INCLUDE "/cae/apps/data/asap7PDK-2022/asap7PDK_r1p7/models/hspice/7nm_TT_160803.pm"
-.INCLUDE "neuron.pex.netlist.pex"
+.INCLUDE "neuron.pex.netlist"
 v1 vdd! 0 0.9v
 v2 vss! 0 0v
 
@@ -41,8 +39,9 @@ v13 w2<0> 0 pwl 0ns 0.0v  3ns 0.0v  3.025ns 0.9v  4ns 0.9v  4.025ns 0.0v  5ns 0.
 
 
 
-X_DUT x0<1> x0<0> w0<1> w0<0> x1<1> x1<0> w1<1> w1<0> w2<2> w2<1> w2<0> out_Z<2> out_Z<1> out_Z<0> vdd! vss! PM_NEURON_VSS
+X_DUT x0<1> x0<0> w0<1> w0<0> x1<1> x1<0> w1<1> w1<0> w2<2> w2<1> w2<0> out_Z<2> out_Z<1> out_Z<0> vdd! vss! neuron
 
 .OP
+.probe v(x0) v(x1) v(out_Z) v(vdd) v(vss)
 .TRAN STEP=10p STOP=9n
 .end

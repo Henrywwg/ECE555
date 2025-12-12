@@ -3,7 +3,7 @@ Input File: test_neuron.sp
 lic:
 lic: FLEXlm: SDK_14.10
 lic: USER:   cadiena              HOSTNAME: linux-2618
-lic: HOSTID: 7f0101               PID:      1051569
+lic: HOSTID: 7f0101               PID:      1072709
 lic: Using FLEXlm license file:
 lic: 27180@synopsys.license.cae.wisc.edu
 lic: Checkout 1 hspice
@@ -11,7 +11,7 @@ lic: License/Maintenance for hspice will expire on 23-jan-2027/2024.09
 lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 27180@synopsys.license.cae.wisc.edu
 lic:
 
- init: begin read circuit files, cpu clock= 5.26E-02
+ init: begin read circuit files, cpu clock= 1.03E-01
        option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/ad
        option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/behave
        option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/bjt
@@ -30,8 +30,7 @@ lic:
        option parhier = local
        option psf =     2.00
        option hier_delim =     0.00
-       option probe
-       option cshunt =    1.000E-18
+       option accurate =     1.00
        option numdgt =     8.00
        option measdgt =     5.00
        option gmindc =    1.000E-18
@@ -39,7 +38,30 @@ lic:
        option method = gear
        option ingold =     2.00
        option post =     1.00
- init: end read circuit files, cpu clock= 5.64E-02 peak memory=     499 mb
- init: begin check errors, cpu clock= 5.64E-02
->error          ***** hspice job aborted
+ init: end read circuit files, cpu clock= 1.38E-01 peak memory=     523 mb
+ init: begin check errors, cpu clock= 1.38E-01
+  **warning**  No DC path to ground from node        0:                        o
+ init: end check errors, cpu clock= 1.79E-01 peak memory=     523 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 1.79E-01
+       establish matrix -- done, cpu clock= 1.80E-01 peak memory=     523 mb
+       re-order matrix -- done, cpu clock= 2.27E-01 peak memory=     534 mb
+ init: end setup matrix, cpu clock= 2.54E-01 peak memory=     534 mb
+ dcop: begin dcop, cpu clock= 2.56E-01
+       establish matrix -- done, cpu clock= 2.78E-01 peak memory=     534 mb
+       re-order matrix -- done, cpu clock= 3.39E-01 peak memory=     541 mb
+ dcop: end dcop, cpu clock= 3.88E-01 peak memory=     541 mb tot_iter=      16
+ output: test_neuron.tr
+ sweep: tran tran0    begin, stop_t=  9.00E-09 #sweeps= 901 cpu clock= 4.08E-01
+ tran: time= 1.0900E-09 tot_iter=       8 conv_iter=       9 cpu clock= 4.19E-01
+ tran: time= 1.9900E-09 tot_iter=      10 conv_iter=      11 cpu clock= 4.20E-01
+ tran: time= 2.8900E-09 tot_iter=      12 conv_iter=      13 cpu clock= 4.21E-01
+ tran: time= 3.6814E-09 tot_iter=     128 conv_iter=      68 cpu clock= 4.91E-01
+ tran: time= 4.5411E-09 tot_iter=     306 conv_iter=     159 cpu clock= 5.69E-01
+ tran: time= 5.4399E-09 tot_iter=     503 conv_iter=     253 cpu clock= 6.43E-01
+ tran: time= 6.3036E-09 tot_iter=     600 conv_iter=     304 cpu clock= 6.80E-01
+ tran: time= 7.2181E-09 tot_iter=     725 conv_iter=     366 cpu clock= 7.27E-01
+ tran: time= 8.1113E-09 tot_iter=     915 conv_iter=     454 cpu clock= 7.90E-01
+ tran: time= 9.0000E-09 tot_iter=     953 conv_iter=     474 cpu clock= 8.04E-01
+ sweep: tran tran0    end, cpu clock= 8.04E-01 peak memory=     541 mb
+>info:         ***** hspice job concluded
  lic: Release hspice token(s)

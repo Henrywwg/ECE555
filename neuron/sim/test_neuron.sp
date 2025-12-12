@@ -1,4 +1,5 @@
-**Test
+**Final Testbench for PEX neuron
+** Written by Henry Wysong-Grass
 .GLOBAL vss! vdd!
 .TEMP 25.0
 .OPTION

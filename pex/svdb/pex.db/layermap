@@ -1,0 +1,84 @@
+OK
+VERSION          2
+TIME_NUMBER 6213896720
+LAYER_COUNT         67
+VIACOR_COUNT         10
+FIELD_NAMES drc_layer_nb layer_name
+         1 LIG
+         4 <ENCRYPTED_LAYER_4>
+         6 LISD
+         7 <ENCRYPTED_LAYER_7>
+         9 SDT
+        12 <ENCRYPTED_LAYER_12>
+        22 Gate
+        23 <ENCRYPTED_LAYER_23>
+        48 <ENCRYPTED_LAYER_48>
+        49 <ENCRYPTED_LAYER_49>
+        53 <ENCRYPTED_LAYER_53>
+        54 <ENCRYPTED_LAYER_54>
+        55 <ENCRYPTED_LAYER_55>
+        56 <ENCRYPTED_LAYER_56>
+        59 <ENCRYPTED_LAYER_59>
+        60 <ENCRYPTED_LAYER_60>
+        62 XCALIBRATE__Active
+        65 XCALIBRATE__Activesd
+        68 XCALIBRATE__Gate
+        71 XCALIBRATE__FGATE
+        74 XCALIBRATE__SDT
+        77 XCALIBRATE__LIG
+        80 XCALIBRATE__LISD
+        83 XCALIBRATE__M1
+        88 XCALIBRATE__M2
+        92 XCALIBRATE__M3
+        96 XCALIBRATE__M4
+       100 XCALIBRATE__M5
+       104 XCALIBRATE__M6
+       108 XCALIBRATE__M7
+       112 XCALIBRATE__M8
+       116 XCALIBRATE__M9
+       365 M1
+       371 M2
+       377 M3
+       383 M4
+       389 M5
+       395 M6
+       401 M7
+       407 M8
+       413 M9
+       419 pad
+       437 V1
+       441 V2
+       445 V3
+       449 V4
+       453 V5
+       457 V6
+       461 V7
+       465 V8
+       469 V9
+       501 FGATE
+       505 fin
+       513 XCALIBRATE__psub
+       515 XCALIBRATE__nsub
+       517 XCALIBRATE__fin
+       519 XCALIBRATE__DIFF2SDT
+       525 XCALIBRATE__V0LISD
+       527 XCALIBRATE__V0LIG
+       529 XCALIBRATE__V1
+       531 XCALIBRATE__V2
+       533 XCALIBRATE__V3
+       535 XCALIBRATE__V4
+       537 XCALIBRATE__V5
+       539 XCALIBRATE__V6
+       541 XCALIBRATE__V7
+       543 XCALIBRATE__V8
+VIACOR_FIELD_NAMES VIA_drc_layer_nb LAYER1_drc_layer_nb LAYER2_drc_layer_nb CONNECT_RULE_nb
+4  1  365  0
+7  6  365  1
+437  365  371  2
+441  371  377  3
+445  377  383  4
+449  383  389  5
+453  389  395  6
+457  395  401  7
+461  401  407  8
+465  407  413  9

@@ -1,0 +1,10 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1765239268 1765239269
+lvs_ExtOutFile RUNDIR /filespace/c/cadiena/ece555/pex
+lvs_ExtOutFile RULES_FILE _rcxControl_calibre_asap7.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 11 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST svdb/neuron.sp
+lvs_ExtOutFile EXTRACTION_REPORT neuron.lvs.report.ext
+lvs_ExtOutFile LAYOUT_PDSP {  svdb/neuron.pdsp }

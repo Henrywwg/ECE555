@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Mon Nov 24 18:11:10 2025 " "v2024.4_39.16" "-xact -pdb -rcc -turbo 1 -3d _rcxControl_calibre_asap7.rul_"
+"Mon Nov 24 18:11:16 2025 " "v2024.4_39.16" "-xact -fmt -all _rcxControl_calibre_asap7.rul_"

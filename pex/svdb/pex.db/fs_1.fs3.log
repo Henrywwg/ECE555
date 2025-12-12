@@ -1,0 +1,331 @@
+starting child process
+unblocking signals
+redirecting streams
+
+Starting /cae/apps/data/mentor-2024/aok_cal_2024.4_39.16/bin/pexrc ...
+////////////////////////////////////////////////////////////////////////////////
+//  pexrc v2024.4_39.16    Tue Dec 3 16:43:01 PST 2024
+//
+//                   Copyright Siemens 1996-2024
+//                       All Rights Reserved.
+//   THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+//      WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION
+//        OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+//
+//  The registered trademark Linux is used pursuant to a sublicense from LMI, the
+//  exclusive licensee of Linus Torvalds, owner of the mark on a world-wide basis.
+//
+//  Mentor Graphics software executing under x86-64 Linux
+//
+////////////////////////////////////////////////////////////////////////////////
+
+Command line: pexrc -use_exec_key -fs3 svdb/pex.db/fs_1.fs3 
+
+================================================================================
+ FSSetting Contents
+================================================================================
+    direct_transfer                                                    : off
+    fs_dir                                                             : svdb/pex.db/
+    fs3                                                                : fs_1.fs3
+    exclude_mgr_filename                                               : <none>
+    pin_net_info_filename                                              : <none>
+    layer_id_to_name_filename                                          : <none>
+    turbo                                                              : on
+    grid_overdraft                                                     : off
+    save_fs_results                                                    : off
+    default_accuracy_level                                             : 2
+    num_threads                                                        : 2
+    alpha                                                              : 7
+    beta                                                               : off
+    min_geo_num_segmentMgr                                             : -1
+    reconcile_charges                                                  : on
+    shift_conformals                                                   : on
+    segment_region_tree                                                : on
+    trim_fs2pex_geo                                                    : on
+    trim_floating_xy                                                   : on
+    num_floating_point_digits                                          : 5
+    trapezoidal_coupled_nets                                           : off
+    use_workaround                                                     : on
+    resolution                                                         : 0.001
+    large_permittivity                                                 : 1000
+    infinite_permittivity                                              : 5000
+    force_trapezoid_all                                                : off
+    force_strab_dispatch                                               : off
+    width_height_ratio_plate                                           : 5
+    fs_hybrid                                                          : OFF|OFF
+    push_excludes_to_output                                            : off
+    push_scaling_to_output                                             : off
+    use_too_few_grid_points                                            : 2
+    use_same_fragmentation_for_fnr                                     : on
+    rotation_interval_denominator                                      : 180
+    rotation_adjustment                                                : on
+    cache_match_overpainted_layer                                      : on
+    cache_charge_percentage_threshold_for_not_match                    : 0.02
+    cache_accumulated_charge_percentage_threshold_for_not_match        : 0.05
+    cache_charge_percentage_threshold_for_not_match_bitmap             : 0.02
+    cache_accumulated_charge_percentage_threshold_for_not_match_bitmap : 0.05
+    cache_charge_percentage_threshold_for_checking_distance            : 0.03
+    merge_total_charges_in_cache                                       : on
+    ignore_excludes_flr                                                : on
+    should_set_cap_ignore_for_embd                                     : off
+    old_cache_check_surrounding                                        : on
+    cache_neighbors_count                                              : DEFAULT:10
+    ratio_for_too_near                                                 : 1.2
+    ignore_scale_coupling                                              : off
+    allow_layout_rotation                                              : on
+    use_testmode_heuristic                                             : 111
+    use_geo_z_distance                                                 : on
+    geo_z_distance_multiplier                                          : 1
+    via_as_metal_geometry_weight                                       : 0.4
+    specific_metal_geo_num                                             : 0
+    specific_metal_geo_num_1visplate                                   : 0
+    inbox_distance_z_ratio                                             : 0.01
+    inbox_distance_z_alpha                                             : -1
+    use_non_diagonal_elements_mtx                                      : on
+    only_cut_extracted_pins                                            : on
+    conv_coord_offset                                                  : 0
+    fs2pex_geo_coord_scale                                             : 0
+    fs2pex_geo_coord_max                                               : 1000000000000000000
+    fs2pex_geo_coord_max64                                             : 1000000000000000000
+    fs2pex_geo_coord_min                                               : 2
+    threshold_for_hannan_geo                                           : -1
+    threshold_for_non_hannan_geo                                       : 0.4
+    use_collect_charge                                                 : off
+    apply_excludes_after_fnr                                           : on
+    apply_psc_intrinsic                                                : on
+    force_tune_intrinsic                                               : 1
+    force_tune_noise_intrinsic                                         : 1
+    distribute_gnd_to_global                                           : off
+    boundary_device_exclude                                            : off
+    use_new_bitmap_theofill                                            : off
+    bitmap_occupy_threshold_large                                      : 0.9999
+    bitmap_occupy_threshold_small                                      : 0.0001
+    length_ratio_geo_ignore                                            : 0.0015
+    area_ratio_geo_ignore                                              : 0.0006
+    apply_zero_capsum_at_netpin                                        : on
+    add_tiny_capvalue_to_ground                                        : <none>
+    remove_positive_intrinsic_in_fnr                                   : on
+    enforce_near_metal_layer_in_netboundary_z                          : on
+    scale_coefficient_of_netboundary_z                                 : 1
+    new_inbox_distance_calculation                                     : off
+    set_capacitance_adjustratio_to_one                                 : off
+    use_adaptive_tolerance_in_iterative_solver                         : off
+    use_all_segments_excluded_heuristic                                : on
+    compute_potential_hanan                                            : on
+    use_sec_opt                                                        : off
+    lstat_max_range                                                    : 1000000
+    apply_excludes_to_intrinsic                                        : off
+    apply_excludes_to_ground                                           : on
+    overwrite_peto_excludes_settings                                   : on
+    write_audit                                                        : off
+    remove_redundant_conformals                                        : ALL
+    tol_mult_iter                                                      : 1
+    tol_mult_final                                                     : 0.1
+    tol_mult_corner                                                    : 1
+    upp_lim_frag                                                       : 25
+    upp_lim_frag_thin_line                                             : 100
+    cc_correct_dist                                                    : off
+    use_legacy_cc_net                                                  : on
+    cc_dist_threshold0                                                 : 0.3
+    cc_dist_threshold1                                                 : 0.6
+    add_hanan_for_1V                                                   : on
+    report_fs3                                                         : on
+    soi_mode                                                           : off
+    use_soi_heuristic                                                  : on
+    traps_ignore_volume                                                : off
+    reserve_spacer_layers                                              : 20
+    force_grid_res_dis                                                 : -1
+    hash_shape                                                         : off
+    trap_trim_hourglass                                                : off
+    gnd_boundary                                                       : off
+    trap_step_num                                                      : -1
+    force_num_sw_step                                                  : -1
+    trap_step_factor                                                   : 2
+    force_non_trapezoid_for_0v                                         : off
+    keep_small_couplings                                               : 0
+    small_coupling_abs_threshold                                       : 1e-20
+    long_wire_ratio                                                    : 5
+    ignore_version                                                     : off
+    write_ref_name                                                     : off
+    is_trapezoid_slope_based                                           : off
+    trapezoid_middle_based                                             : <none>
+    old_angle_1v_calculation                                           : on
+    mask_based_dielectric_cache                                        : on
+    use_post_fnr_excludes                                              : on
+    epsilon_significant_digits                                         : 3
+    generate_auto_conformals                                           : on
+    use_fix_plate_total                                                : on
+    use_fix_intrinsic_ground_exclude                                   : on
+    use_true_layers_for_max_cond                                       : off
+    seg_sort_control                                                   : SegSortType: 0
+    ratio_for_coupled_nets_ew                                          : 2
+    zmod_adjustment                                                    : ZTOP1V_PRESERVEBOT
+    use_zmod                                                           : on
+    use_dmod                                                           : on
+    serialize_geo                                                      : off
+    swap_axes                                                          : on
+    swap_swthickness_with_axes                                         : on
+    redistribute_intrinsic_to_global                                   : off
+    redistribute_intrinsic_to_ground                                   : 0
+    distribute_intrinsic_to_ground_nets                                : 0
+    redist_intrinsic_to_ground_before_fnr_even                         : off
+    make_all_coord_positive_grid                                       : on
+    center_seg_mgr                                                     : on
+    fix_order_cond_trap                                                : on
+    use_check_min_width                                                : on
+    order_nets_id                                                      : off
+    use_coord_real_for_conf                                            : on
+    trap_info_has_coord_real                                           : on
+    use_coord_accu_for_conf_boxes                                      : on
+    psc_filename                                                       : <none>
+    single_geo_file_name                                               : <none>
+    dispatcher_load_filename                                           : <none>
+    long_aspect_ratio_dispatcher                                       : 1.5
+    flat_ratio_dispatcher                                              : 500
+    dispatch_flat_to_parallel_plate                                    : on
+    use_rule_confidence_level_for_strab                                : off
+    cbr_signif_threshold                                               : 0.2
+    fix_plate_in_cbr                                                   : off
+    max_iters_to_converge                                              : 10000
+    check_netindex_for_connection                                      : off
+    peto_excludes_before_symmetry                                      : on
+    use_ign_in_merge                                                   : off
+    transfer_excludes                                                  : on
+    use_trapezoid_extra_width                                          : on
+    lock_mode                                                          : off
+    compare_netid_for_ignore_with_peto_on                              : on
+    select_geo_for_trap_based_on_distance                              : off
+    cut_large_geometries                                               : off
+    potentially_downgrade_red_conf                                     : on
+    populate_set_kmod_layers                                           : on
+    add_grid_line_between_hanan                                        : 2
+    add_hanan_grid_line_between_hanan                                  : 1
+    use_rotate_for_adjust_bbox_per_grid                                : on
+    large_job_size                                                     : 3000
+    small_job_size                                                     : 35
+    large_design_cut_job_threshold                                     : 100000
+    small_design_combine_job_threshold                                 : 100
+    assert_polygon                                                     : off
+    check_1v_connection_for_geo_count                                  : off
+    skip_gate_layer_check                                              : on
+    feature_vector_file                                                : <none>
+    classifier_force_label                                             : <none>
+    update_deck_classifier_for_inv_classification                      : on
+    use_new_exclude_base                                               : on
+    use_cg_fnr                                                         : on
+    forced_max_cond_height                                             : -1
+    embedded_eps_scale                                                 : 1
+    mask_eps_scale                                                     : 1
+    planar_eps_scale                                                   : 1
+    use_local_psc_map                                                  : on
+    odf                                                                : 0
+    check_plate_opposite_insertion                                     : off
+    check_extracted0v_opposite_insertion                               : on
+    transition_shrink_to_fit                                           : on
+    always_extract_flr                                                 : on
+    rq_stats_filename                                                  : <none>
+    fracture_plates_in_odf                                             : on
+    plate_wire_special_handling                                        : on
+    always_fracture_geos                                               : on
+    apply_z_flip                                                       : off
+    global_z_shift_distance                                            : 0
+    upper_interconnects                                                : -1
+    lower_interconnects                                                : -1
+    fix_trapezoid_coupling                                             : on
+    stable_frag_sort                                                   : on
+    frag_rq_by_tile_idx                                                : on
+    fnr_half_elements_given                                            : off
+    ignore_intrinsic_charge_threshold                                  : 0
+    multipass_thresholds                                               : <none>
+    sanitize_fnr_corrections                                           : on
+    modify_total_charge_conser                                         : off
+    freeze_res_dis                                                     : off
+    allow_implicit_layer_conv                                          : on
+    traverse_xcal_names_for_rules                                      : on
+    populate_ptf_ids_for_rsd_layers                                    : on
+    escape_if_no_vert_planes                                           : off
+    allow_default_bot                                                  : on
+    allow_default_top                                                  : on
+    default_bot_to_bulk                                                : off
+    default_top_to_air                                                 : off
+    allow_substitute_sub                                               : off
+    fix_bot_coord_sens                                                 : on
+    use_top_cap_sensitivity                                            : off
+    use_optional_lat_tables                                            : off
+    use_top_loading_func                                               : 2
+    use_bot_loading_func                                               : on
+    extraction_record_filename                                         : <none>
+    use_cell_excludes                                                  : on
+    multiplier_comp_cond_scale                                         : 1
+    win_exp_ratio_wrt_1v_dim                                           : -1
+    reduce_parfill_bcells                                              : off
+    mult_segment_mgr_size                                              : 30
+    keep_sanitized_corrections                                         : on
+    vector_cap_buf_size                                                : 1024
+    single_plate_wire_control                                          : off
+    cache_precision_scaling_power                                      : 3
+    strab_distance_length_ratio                                        : 1.5
+    exit_logger_errors                                                 : on
+    nb_coordinates_error                                               : on
+    cache_final_check_nb_geos                                          : -1
+    geo_num_crec_3                                                     : 12000
+    fine_layer_crec_3                                                  : M8
+    plate_layer_crec                                                   : <none>
+    parall_layer_crec                                                  : <none>
+    none_layer_crec                                                    : <none>
+    strab_overlap_volume_threshold                                     : 0.95
+    strab_z_overlap_threshold                                          : -1
+    rec_class                                                          : <none>
+    limit_eqdist_plate_segs                                            : on
+    force_default_accuracy                                             : off
+    interconnect_override_layer                                        : <none>
+    via_override_layer                                                 : <none>
+--------------------------------------------------------------------------------
+ environment variables detected
+--------------------------------------------------------------------------------
+    PEX_FS_ACCURACY=200
+    PEX_FS_KEY_1=9fe3958e2e4e899ecf07e033e4209118
+    PEX_FS_MATRIX_SOLVER=1
+    PEX_FS_NUM_FLOATING_POINT_DIGITS=5
+    PEX_FS_REPORT_FS3=1
+    PEX_FS_TEST_MODE=0
+    PEX_FS_UPDATE_DECK_CLSFR_FOR_INV_CLASSIFICATION=ON
+================================================================================
+$ PID = 680097
+
+FS2PEX
+Program started at Mon Dec  8 18:14:33 2025
+Parsing...
+Checking nets...
+Writing database...
+Total nets for extraction = 167
+Total pins for extraction (total geometries) = 4608 (6125)
+FS2PEX elapsed time: 0 seconds.
+
+PEXRC
+Program started at Mon Dec  8 18:14:33 2025
+Running on tux-126
+Reading database...
+Running on 2 processors
+WARNING: Layer "LIG__M1__<ENCRYPTED_LAYER_4>" overwrites layer "LISD__M1__<ENCRYPTED_LAYER_7>".
+Preprocessing...
+Successfully read dispatcher
+Extracting 167 nets including 4608 geometries...
+FS Extracting 4608 segments...
+WARNING: Very small net-to-net distance detected (net_56:220 on layer <ENCRYPTED_LAYER_23> and net_2:6862 on layer <ENCRYPTED_LAYER_49>__LISD__SDT). This may cause longer run time.
+WARNING: Very small net-to-net distance detected (net_11:296 on layer <ENCRYPTED_LAYER_23> and net_2:5826 on layer <ENCRYPTED_LAYER_49>__LISD__SDT). This may cause longer run time.
+Collecting extraction results...
+Collecting coupling capacitances...
+Writing capacitance matrix...
+Total CPU time: 42 seconds.
+Total Elapsed time: 22 seconds.
+StartTime: 1765239273 StopTime: 1765239295
+Total memory usage: 114MB
+AMode (Mean, Std): (2.66081 , 0.872078)
+SIter(#, Mean , Std, FPrec, FMax)[0 , 1000000) = (8273 , 11.7587 , 3.34084 , 0 , 0)
+(#FS) = (4608)
+(F_FS, C_FS, STRAB, PPLATE, NO, INV) = (0, 4608, 0, 0, 0, 0)
+(F_FS, C_FS, STRAB, PPLATE, NO, INV) = (0, 0, 0, 0, 0, 0)
+nTurboAggie_ratio = 38.3%
+Total 0 errors and 3 warnings.
+

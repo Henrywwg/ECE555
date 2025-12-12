@@ -2,8 +2,8 @@
 Input File: test_neuron.sp
 lic:
 lic: FLEXlm: SDK_14.10
-lic: USER:   hwysonggrass         HOSTNAME: tux-127
-lic: HOSTID: 7f0101               PID:      391191
+lic: USER:   cadiena              HOSTNAME: linux-2618
+lic: HOSTID: 7f0101               PID:      1051569
 lic: Using FLEXlm license file:
 lic: 27180@synopsys.license.cae.wisc.edu
 lic: Checkout 1 hspice
@@ -11,7 +11,7 @@ lic: License/Maintenance for hspice will expire on 23-jan-2027/2024.09
 lic: 1(in_use)/50(total) FLOATING license(s) on SERVER 27180@synopsys.license.cae.wisc.edu
 lic:
 
- init: begin read circuit files, cpu clock= 6.71E-02
+ init: begin read circuit files, cpu clock= 5.26E-02
        option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/ad
        option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/behave
        option search = /cae/apps/data/synopsys-2025/hspice/X-2025.06/hspice/parts/bjt
@@ -30,7 +30,8 @@ lic:
        option parhier = local
        option psf =     2.00
        option hier_delim =     0.00
-       option accurate =     1.00
+       option probe
+       option cshunt =    1.000E-18
        option numdgt =     8.00
        option measdgt =     5.00
        option gmindc =    1.000E-18
@@ -38,27 +39,7 @@ lic:
        option method = gear
        option ingold =     2.00
        option post =     1.00
- init: end read circuit files, cpu clock= 6.80E-02 peak memory=     493 mb
- init: begin check errors, cpu clock= 6.80E-02
- init: end check errors, cpu clock= 7.74E-02 peak memory=     495 mb
- init: begin setup matrix, pivot=     0 cpu clock= 7.74E-02
-       establish matrix -- done, cpu clock= 7.78E-02 peak memory=     496 mb
-       re-order matrix -- done, cpu clock= 7.85E-02 peak memory=     496 mb
- init: end setup matrix, cpu clock= 8.78E-02 peak memory=     496 mb
- dcop: begin dcop, cpu clock= 8.84E-02
- dcop: end dcop, cpu clock= 1.52E-01 peak memory=     496 mb tot_iter=      22
- output: test_neuron.tr
- sweep: tran tran0    begin, stop_t=  9.00E-09 #sweeps= 901 cpu clock= 1.58E-01
- tran: time= 9.7500E-10 tot_iter=      14 conv_iter=       7 cpu clock= 1.59E-01
- tran: time= 1.8854E-09 tot_iter=     522 conv_iter=     212 cpu clock= 2.93E-01
- tran: time= 2.7673E-09 tot_iter=    1032 conv_iter=     421 cpu clock= 3.88E-01
- tran: time= 3.6700E-09 tot_iter=    1940 conv_iter=     783 cpu clock= 6.00E-01
- tran: time= 4.5141E-09 tot_iter=    2578 conv_iter=    1041 cpu clock= 7.18E-01
- tran: time= 5.4012E-09 tot_iter=    2592 conv_iter=    1048 cpu clock= 7.20E-01
- tran: time= 6.5643E-09 tot_iter=    2600 conv_iter=    1052 cpu clock= 7.21E-01
- tran: time= 7.4380E-09 tot_iter=    2604 conv_iter=    1054 cpu clock= 7.22E-01
- tran: time= 8.3380E-09 tot_iter=    2608 conv_iter=    1056 cpu clock= 7.23E-01
- tran: time= 9.0000E-09 tot_iter=    2612 conv_iter=    1058 cpu clock= 7.24E-01
- sweep: tran tran0    end, cpu clock= 7.24E-01 peak memory=     496 mb
->info:         ***** hspice job concluded
+ init: end read circuit files, cpu clock= 5.64E-02 peak memory=     499 mb
+ init: begin check errors, cpu clock= 5.64E-02
+>error          ***** hspice job aborted
  lic: Release hspice token(s)

@@ -1,7 +1,7 @@
 * "simulator" "PrimeSim HSPICE"
 * "version" "X-2025.06 linux64"
 * "format" "HSP"
-* "rundate" "18:16:18 11/29/2025 "
+* "rundate" "11:00:59 12/12/2025 "
 * "netlist" "test_neuron.sp "
 * "runtitle" "**test"
 * time =  0.0000000e+00   

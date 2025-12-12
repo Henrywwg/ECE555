@@ -1,0 +1,62 @@
+********************************************************************************
+Product   : Virtuoso(R) XStream Out
+Program   : @(#)$CDS: strmout version IC23.1-64b 04/22/2025 22:31 (cpgbld17) $
+          : sub-version  IC23.1-64b.ISR14.32 
+Started at: 08-Dec-2025  18:14:25
+User Name : cadiena
+Host Name : tux-126
+Directory : /filespace/c/cadiena/ece555
+CADENCE Design Systems, Inc.
+********************************************************************************
+Info: Cellview Rev Num:99,  Tech Rev Num:59
+
+WARNING (XSTRM-20): Output Stream file '/filespace/c/cadiena/ece555/pex/neuron.calibre.db' already exists. It will be overwritten.
+INFO (XSTRM-217): Reading the layer map file, /cae/apps/data/asap7PDK-2022/asap7PDK_r1p7/cdslib/asap7_TechLib_10/asap7_TechLib.layermap
+INFO (XSTRM-217): Reading the object map file, /cae/apps/data/asap7PDK-2022/asap7PDK_r1p7/cdslib/asap7_TechLib_10/asap7_TechLib.objectmap
+INFO (XSTRM-427): Based on current hardware configuration, running XStream Out translation in multi-threaded mode with 4 threads.
+INFO (XSTRM-162): You have not used the '-viaMap' option. If the OpenAccess design has native oaVia instances, use the '-viaMap' option for preserving oaVia instances in a XStream Out - XStream In round trip. Using the '-viaMap' option improves performance and VM usage of applications using the Streamed-In design.
+
+Summary of Options :
+library                                 ECE555
+strmFile                                /filespace/c/cadiena/ece555/pex/neuron.calibre.db
+topCell                                 neuron
+view                                    layout
+runDir                                  /filespace/c/cadiena/ece555/pex/
+logFile                                 PIPO.LOG.neuron
+summaryFile                             PIPO.SUM.neuron
+layerMap                                /cae/apps/data/asap7PDK-2022/asap7PDK_r1p7/cdslib/asap7_TechLib_10/asap7_TechLib.layermap
+objectMap                                /cae/apps/data/asap7PDK-2022/asap7PDK_r1p7/cdslib/asap7_TechLib_10/asap7_TechLib.objectmap
+case                                    Preserve
+convertDot                              node
+convertPcellPin                         geometry
+
+INFO (XSTRM-223): 1. Translating cellview ECE555/neuron/layout as STRUCTURE neuron.
+
+Summary of Objects Translated:
+	Scalar Instances:                       0
+	Array Instances:                        0
+	Polygons:                               1
+	Paths:                                  0
+	Rectangles:                             3515
+	Lines:                                  0
+	Arcs:                                   0
+	Donuts:                                 0
+	Dots:                                   0
+	Ellipses:                               0
+	Boundaries:                             0
+	Area Blockages:                         0
+	Layer Blockages:                        0
+	Area Halos:                             0
+	Markers:                                0
+	Rows:                                   0
+	Stitch:                                 0
+	Standard Vias                           0
+	Custom Vias:                            0
+	CdsGen Vias:                            0
+	Pathsegs:                               0
+	Text:                                   126
+	TextDisplay:                            0
+	Cells:                                  1
+
+Elapsed Time: 0.6s   User Time: 0.1s   CPU Time: 0.1s   Peak VM: 31620KB
+INFO (XSTRM-234): Translation completed. '0' error(s) and '1' warning(s) found.

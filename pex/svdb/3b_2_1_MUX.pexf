@@ -1,0 +1,5 @@
+# Automagically generated file: Please do not edit!
+pex_PexParam RUNDIR /filespace/c/cadiena/ece555/pex
+pex_PexParam LAYOUT_PRIMARY 3b_2_1_MUX
+pex_PexParam TOOL xRC
+pex_PexParam CORNER_PDBS { {3B_2_1_MUX "" 3B_2_1_MUX.pdb "" } } 

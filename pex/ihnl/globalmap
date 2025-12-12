@@ -1,0 +1,20 @@
+CADENCE IHNL11140
+$model
+ECE555/MIRRORFA_frontend/schematic MIRRORFA_frontend
+ECE555/3b_2_1_MUX_vert/schematic 3b_2_1_MUX_vert
+ECE555/MULT2/schematic MULT2
+ECE555/FRANKENFA/schematic FRANKENFA
+ECE555/CONV_NO_COUT/schematic CONV_NO_COUT
+ECE555/XOR/schematic XOR
+ECE555/ADDER2/schematic ADDER2
+ECE555/MIRRORFA_noCIN/schematic MIRRORFA_noCIN
+ECE555/NAND/schematic NAND
+ECE555/AND_2/schematic AND_2
+ECE555/INV/schematic INV
+ECE555/neuron/schematic neuron
+ECE555/ADDER3/schematic ADDER3
+$endmodel
+$net
+$endnet
+$param
+$endparam

@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/neuron.dv
+dv_start matched                                  
+dv_cell {neuron} {neuron} matched
+dv_obj_count -transformed_nets {155 155} -transformed_inst {284 284} -transformed_port {16 16}
+dv_end

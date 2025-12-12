@@ -1,0 +1,30 @@
+//
+//  Rule file generated on Mon Dec 8 18:14:26 2025
+//  by Calibre Interactive v2024.4_39.16    Tue Dec 3 16:43:50 PST 2024
+//
+//      *** PLEASE DO NOT MODIFY THIS FILE ***
+//
+//
+
+LAYOUT PATH "neuron.calibre.db"
+LAYOUT SYSTEM GDSII
+LAYOUT PRIMARY "neuron"
+
+SOURCE PATH "neuron.src.net"
+SOURCE SYSTEM SPICE
+SOURCE PRIMARY "neuron"
+
+PEX FIELDSOLVER MODE 200
+
+PEX NETLIST "neuron.pex.netlist" ELDO SOURCENAMES
+
+MASK SVDB DIRECTORY "svdb" QUERY XRC
+
+LVS REPORT "neuron.lvs.report"
+PEX REPORT "neuron.pex.report" SOURCENAMES
+
+VIRTUAL CONNECT NAME "VDD" "VSS"
+
+DRC ICSTATION YES
+
+INCLUDE "/cae/apps/data/asap7PDK-2022/asap7PDK_r1p7/calibre/ruledirs/rcx/rcxControl_calibre_asap7.rul"

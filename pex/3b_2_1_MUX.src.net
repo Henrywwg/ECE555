@@ -1,0 +1,58 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  ECE555
+* Top Cell Name: 3b_2_1_MUX
+* View Name:     schematic
+* Netlisted on:  Nov 24 18:11:06 2025
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    INV
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT INV IN OUT vdd vss
+*.PININFO IN:I OUT:O vdd:B vss:B
+MM0 OUT IN vss vss nmos_rvt w=81.0n l=20n nfin=3
+MM1 OUT IN vdd vdd pmos_rvt w=81.0n l=20n nfin=3
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    AND_2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT AND_2 A B Y vdd vss
+*.PININFO A:I B:I Y:O vdd:B vss:B
+MM2 Y net2 vss vss nmos_rvt w=54.0n l=20n nfin=2
+MM1 net2 B net1 vss nmos_rvt w=108.00n l=20n nfin=4
+MM0 net1 A vss vss nmos_rvt w=108.00n l=20n nfin=4
+MM5 Y net2 vdd vdd pmos_rvt w=81.0n l=20n nfin=3
+MM4 net2 B vdd vdd pmos_rvt w=81.0n l=20n nfin=3
+MM3 net2 A vdd vdd pmos_rvt w=81.0n l=20n nfin=3
+.ENDS
+
+************************************************************************
+* Library Name: ECE555
+* Cell Name:    3b_2_1_MUX
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 3b_2_1_MUX A<2> A<1> A<0> VDD VSS Y<2> Y<1> Y<0>
+*.PININFO A<2>:I A<1>:I A<0>:I Y<2>:O Y<1>:O Y<0>:O VDD:B VSS:B
+XI4 VDD Y<2> VDD VSS / INV
+XI0 A<2> net4 VDD VSS / INV
+XI2 net4 A<0> Y<0> VDD VSS / AND_2
+XI1 net4 A<1> Y<1> VDD VSS / AND_2
+.ENDS
+

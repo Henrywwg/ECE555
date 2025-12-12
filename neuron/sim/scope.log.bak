@@ -1,38 +1,308 @@
-ScopeSigMgr:loadpffile /filespace/c/cadiena/ece555/ECE555/neuron/sim/test_neuron.tr0 1 openonly
-# PF:1
-wm geometry .sigmgr._PF:1 290x358+1920+1080
-pf:read PF:1 v(w0<0>) v(w0<1>) v(w1<0>) v(w1<1>) v(w2<0>) v(w2<1>) v(w2<2>) v(x0<0>) v(x0<1>) v(x1<0>) v(x1<1>) v(out_z<0>) v(out_z<1>) v(out_z<2>)
-# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8 WF:1:9 WF:1:10 WF:1:11 WF:1:12 WF:1:13 WF:1:14
-Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8 WF:1:9 WF:1:10 WF:1:11 WF:1:12 WF:1:13 WF:1:14} -region {new new new new new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2 2 2 2 2}
-# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9 Signal10 Signal11 Signal12 Signal13
 Mdi:ArrangeIcons
-wm geometry . 3840x2058+0+32
-Mdi:Resize 3821 1931
-Mdi:Move 5 5
-wm geometry .sigmgr._PF:1 290x358+426+636
-wm geometry .sigmgr._PF:1 290x358+136+594
-wm geometry .sigmgr 467x236+407+197
-wm geometry .sigmgr 467x236+400+197
-wm geometry .sigmgr 467x236+391+198
-wm geometry .sigmgr 467x236+382+198
-wm geometry .sigmgr 467x236+372+199
-wm geometry .sigmgr 467x236+361+199
-wm geometry .sigmgr 467x236+328+195
-wm geometry .sigmgr 467x236+281+191
-wm geometry .sigmgr 467x236+241+185
-wm geometry .sigmgr 467x236+208+181
-wm geometry .sigmgr 467x236+185+178
-wm geometry .sigmgr 467x236+164+176
-wm geometry .sigmgr 467x236+153+174
-wm geometry .sigmgr 467x236+143+172
-wm geometry .sigmgr 467x236+126+168
-wm geometry .sigmgr 467x236+105+163
-wm geometry .sigmgr 467x236+89+162
-wm geometry .sigmgr 467x236+80+161
-wm geometry .sigmgr 467x236+74+160
-wm geometry .sigmgr 467x236+69+159
-wm geometry .sigmgr 467x236+64+158
-wm geometry .sigmgr 467x236+60+157
-wm geometry .sigmgr 467x236+58+157
-wm geometry .sigmgr 467x236+57+156
-wm geometry .sigmgr 467x236+56+156
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 900x785+8+85
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+31
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+23
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+31
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+23
+Mdi:ArrangeIcons
+Mdi:FullSize
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /filespace/h/hwysonggrass/ece555/ECE555/neuron/sim/test_neuron.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 232x242+1920+540
+wm geometry .sigmgr._PF:1 232x637+1920+145
+pf:read PF:1 v(x0<0>) v(x0<1>) v(x1<0>) v(x1<1>)
+# WF:1:4 WF:1:5 WF:1:6 WF:1:7
+Graph addsignal {WF:1:4 WF:1:5 WF:1:6 WF:1:7} -region {new new new new} -yview {real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+pf:read PF:1 v(out_z<2>) v(out_z<1>) v(out_z<0>)
+# WF:1:3 WF:1:2 WF:1:1
+Graph addsignal {WF:1:3 WF:1:2 WF:1:1} -region {new new new} -yview {real(y) real(y) real(y)} -xview {real(x) real(x) real(x)} -tracehi {2 2 2}
+# Signal4 Signal5 Signal6
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+3195+433
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x637+2179+233
+Graph:DSel
+Graph:Select Graph0
+wm geometry .sigmgr 376x204+3454+102
+wm geometry .sigmgr._PF:1 232x637+1920+145
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+3195+433
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x637+2179+233
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x637+2202+264
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x637+2105+292
+Graph:DSel
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.35335668316362 0.62671108316716} {3.6214n 3.59267n}}
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0) AxisY(5,0) AxisY(6,0)} -range {all all all all all all all all} -zoomed {0 0 0 0 0 0 0 0}
+Graph:DSel
+Graph itemselect Signal4 add
+# Signal4
+Graph itemselect Signal4 add
+# Signal4
+wm geometry .sigmgr._PF:1 232x637+2179+233
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x637+2202+264
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x637+2105+292
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph itemselect Signal4 add
+# Signal4
+Graph itemselect Signal4 rem
+Graph delsignal Signal4
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph sigconfig Signal3 -region 5 -rgnindex 1
+Graph:DSel
+Graph axisconfig {AxisY(4,0) AxisX(0)} -range {{1.015970187988 -0.29327911986526} {2.97932n 3.21964n}}
+wm geometry .sigmgr._PF:1 232x637+2313+234
+Graph:DSel
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0)} -range {all all all all all all} -zoomed {0 0 0 0 0 0}
+wm geometry .sigmgr._PF:1 232x637+2144+363
+wm geometry .sigmgr._PF:1 232x637+2122+230
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph itemselect Signal3 add
+# Signal3
+wm geometry .sigmgr._PF:1 232x637+2105+292
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x637+2313+234
+wm geometry .sigmgr._PF:1 232x637+2144+363
+wm geometry .sigmgr._PF:1 232x637+2122+230
+Graph itemselect Signal3 rem
+Graph delsignal Signal3
+Mdi:ArrangeIcons
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph delsignal selected
+Graph:DSel
+Mdi:ArrangeIcons
+pf:read PF:1 v(w0<0>) v(w0<1>)
+# WF:1:8 WF:1:9
+Graph addsignal {WF:1:8 WF:1:9} -region {new new} -yview {real(y) real(y)} -xview {real(x) real(x)} -tracehi {2 2}
+# Signal7 Signal8
+wm geometry .sigmgr 376x204+2612+678
+wm geometry .sigmgr 376x204+2294+625
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal6 add
+# Signal6
+wm geometry .sigmgr 376x204+3195+433
+wm geometry .sigmgr 376x204+2612+678
+wm geometry .sigmgr 376x204+2294+625
+Graph sigconfig {Signal6 Signal7} -region {4 4} -rgnindex {0 1}
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.98490400490632 -0.20744803402502} {5.97758n 6.21218n}}
+wm geometry .sigmgr._PF:1 232x637+1949+232
+wm geometry .sigmgr 376x204+1945+667
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x637+2122+230
+wm geometry .sigmgr._PF:1 232x637+1949+232
+wm geometry .sigmgr 376x204+2294+625
+wm geometry .sigmgr 376x204+1945+667
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1949+663
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1945+667
+wm geometry .sigmgr 376x204+1949+663
+Mdi:ArrangeIcons
+wm geometry .sigmgr 376x204+1949+666
+Mdi:ArrangeIcons
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Delay Graph0 Signal7 Signal6 either either default default default default 0.5 0.5 xyrangeAll
+# M:0
+Graph axisconfig {AxisX(0) AxisY(3,0)} -range {{5.9216767171n 6.2216767171n exact} {0.91817191889687 -0.58182808110313 exact}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(3,0)} -range {{5.88751712136n 6.18751712136n exact} {0.90648219302499 -0.59351780697501 exact}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(3,0)} -range {{5.9199601545n 6.2199601545n exact} {0.80127466017811 -0.69872533982189 exact}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+GrMeas:Select Graph0 M:0 7
+Graph delsignal selected
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+GrMeas:Delay Graph0 Signal6 Signal7 either either default default default default 0.5 0.5 xyrangeAll
+# M:1
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(3,0)} -range {{5.92974456132n 6.22974456132n exact} {0.81296438604999 -0.68703561395001 exact}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(3,0)} -range {{5.98141309559n 6.28141309559n exact} {1.093517806975 -0.40648219302499 exact}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(3,0)} -range {{6.02295391051n 6.32295391051n exact} {1.3390020502844 -0.1609979497156 exact}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(3,0)} -range {{6.07393581974n 6.37393581974n exact} {1.6078657453375 0.10786574533754 exact}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(3,0)} -range {{6.13092569807n 6.43092569807n exact} {1.7247630040563 0.2247630040563 exact}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(3,0)} -range {{6.18688563884n 6.48688563884n exact} {0.88310274128124 -0.61689725871876 exact}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0)} -range {all all all all all all} -zoomed {0 0 0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1920x980+0+0
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1920x980+0+0
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+31
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+23
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.99659373077819 -0.2658966633844} {5.74871n 6.64704n}}
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+31
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+23
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{0.28352045259377 0.90307592380319} {6.21250206301n 6.01566955152n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0)} -range {all all all all all all} -zoomed {0 0 0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph:DSel
+Graph axisconfig {AxisY(3,0) AxisX(0)} -range {{-0.20744803402502 1.1368704412407} {6.32661n 5.8002n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(3,0)} -range {{5.61841628628n 6.16841628628n exact} {1.9208301313875 -0.079169868612468 exact}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph axisconfig {AxisX(0) AxisY(3,0)} -range {{5.62156331771n 6.17156331771n exact} {1.5155863011625 -0.48441369883749 exact}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1920x980+0+0
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1920x980+0+0
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+23
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+31
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+23
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+31
+Mdi:ArrangeIcons
+wm geometry . 1920x980+1920+23
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0)} -range {all all all all all all} -zoomed {0 0 0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisX(0) AxisY(0,0) AxisY(1,0) AxisY(2,0) AxisY(3,0) AxisY(4,0)} -range {all all all all all all} -zoomed {0 0 0 0 0 0}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x637+3005+460
+wm geometry .sigmgr 376x204+1132+708
+wm geometry .sigmgr._PF:1 232x637+1016+297
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x637+1949+232
+wm geometry .sigmgr 376x204+1949+666
+Mdi:ArrangeIcons
+wm geometry .sigmgr._PF:1 232x637+3005+460
+wm geometry .sigmgr 376x204+1132+708
+wm geometry .sigmgr._PF:1 232x637+1016+297
+Mdi:ArrangeIcons
+pf:read PF:1 v(w0<0>) v(w0<1>) v(w1<0>) v(w1<1>) v(w2<0>) v(w2<1>) v(w2<2>) v(x0<0>) v(x0<1>) v(x1<0>) v(x1<1>)
+# WF:1:8 WF:1:9 WF:1:10 WF:1:11 WF:1:12 WF:1:13 WF:1:14 WF:1:4 WF:1:5 WF:1:6 WF:1:7
+Graph addsignal {WF:1:8 WF:1:9 WF:1:10 WF:1:11 WF:1:12 WF:1:13 WF:1:14 WF:1:4 WF:1:5 WF:1:6 WF:1:7} -region {new new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2 2}
+# Signal9 Signal10 Signal11 Signal12 Signal13 Signal14 Signal15 Signal16 Signal17 Signal18 Signal19
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(3,0) add
+# AxisY(3,0)
+Graph:DSel
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{1.0320468616858 -0.28454081773917} {8.97012n 10.0229n}}
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

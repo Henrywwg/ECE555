@@ -39,7 +39,7 @@ v13 w2<0> 0 pwl 0ns 0.0v  3ns 0.0v  3.025ns 0.9v  4ns 0.9v  4.025ns 0.0v  5ns 0.
 
 
 
-X_DUT x0<1> x0<0> w0<1> w0<0> x1<1> x1<0> w1<1> w1<0> w2<2> w2<1> w2<0> out_Z<2> out_Z<1> out_Z<0> vdd! vss! neuron
+X_DUT vss! vdd! w0<1> x0<1> w0<0> x0<0> w1<0> x1<0> w1<1> x1<1> w2<0> w2<1> w2<2> out_Z<2> out_Z<0> out_Z<1> neuron
 
 .OP
 .probe v(x0) v(x1) v(out_Z) v(vdd) v(vss)

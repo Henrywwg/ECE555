@@ -43,5 +43,5 @@ X_DUT x0<1> x0<0> w0<1> w0<0> x1<1> x1<0> w1<1> w1<0> w2<2> w2<1> w2<0> out_Z<2>
 
 .OP
 .probe v(x0) v(x1) v(out_Z) v(vdd) v(vss)
-.TRAN STEP=10p STOP=9n
+.TRAN STEP=10p STOP=10n
 .end
